@@ -1,44 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fishing Images Viewer</title>
-    <link rel="stylesheet" href="image_swap.css">
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+      
+
+        <title>Monster Nutrition</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/mainCss.css">
+        
+
+        
+    </head>
+
 <body>
-    <main>
-        <h1>Atlantic Way</h1>
-        <p>Click on an image to enlarge.</p>
+    <div class="header">
+        <div class="container">
+            
+                <div class="navbar-header">
+                    
+                    <img src="img/logo.jpg" id="logoImg">
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" >Home</a></li>
+                        <li><a href="#"  data-id="about">About Us</a></li>
+                        <li><a href="#"  data-id="search">search</a></li>
+                        <li><a href="#"  data-id="login">Login</a></li>
+                        <li><a href="#"  data-id="register">Register</a></li>
+                    </ul>
+                </div>
+            
+        </div>
+       
+    </div>
+   
 
-        <ul id="image_list">
-            <li><a href="images/sheep.jpg" title="Local sheep">
-                <img src="thumbnails/sheep.jpg" alt="sheep"></a></li>
-                <li><a href="images/road.jpg" title="Cliffside road">
-                <img src="thumbnails/road.jpg" alt="road"></a></li>
-                <li><a href="images/cliffside.jpg" title="Cliffside sights">
-                <img src="thumbnails/cliffside.jpg" alt="cliff"></a></li>
-                <li><a href="images/drive.jpg" title="Coastal road">
-                <img src="thumbnails/drive.jpg" alt="road"></a></li>
-                <li><a href="images/headland.jpg" title="Northern headlands">
-                <img src="thumbnails/headland.jpg" alt="headland"></a></li>
-                <li><a href="images/galway.jpg" title="Cliffs of Galway">
-                <img src="thumbnails/galway.jpg" alt="cliffs"></a></li>
-                <li><a href="images/rockyroad.jpg" title="Road to Kerry">
-                <img src="thumbnails/rockyroad.jpg" alt="kerry road"></a></li>
-                <li><a href="images/view.jpg" title="View from cliffs">
-                <img src="thumbnails/view.jpg" alt="cliff view"></a></li>
-                <li><a href="images/lake.jpg" title="Connemara lake">
-                <img src="thumbnails/lake.jpg" alt="lake"></a></li>
-                <li><a href="images/atlantic.jpg" title="Scenic route">
-                <img src="thumbnails/atlantic.jpg" alt="route"></a></li>
-        </ul>
 
-        <h2 id="caption">Catch and Release</h2>
-        <p><img id="main_image" src="images/release.jpg" alt="release fish"></p>
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="text-content">
+                <h2>Munster Nutrition</h2>
+                <p>The very best supplements, produced locally</p>
+                <div class="primary-white-button">
+                    <a href="#" class="scroll-link" data-id="about">Browse Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <script src="imageswap.js"></script>
-    </main>    
+
+    <section id="about" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        
+                        <h4>Locally Produced</h4>
+                        <div class="line-dec"></div>
+                        <p>Locally made in the county of Limerick, providing the whole province of Munster with top quality supplements.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        
+                        <h4>Lab Tested</h4>
+                        <div class="line-dec"></div>
+                        <p>All the supplements are lab tested to make sure they give the best performance and are safe for use.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                       
+                        <h4>24/7 Customer Support</h4>
+                        <div class="line-dec"></div>
+                        <p>Our customers are very important for us and we offer 24/7 customer support.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        
+                        <h4>Wide Range of Products</h4>
+                        <div class="line-dec"></div>
+                        <p>Feel free to browse our wide range of goods.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="logo">
+                        <a class="logo-ft scroll-top" href="#"><em>M</em>unster</a>
+                        <p>Copyright &copy; 2020 MunsterNutrition 
+                       </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="location">
+                        <h4>Location</h4>
+                        <ul>
+                            <li>42 Mallow Street <br>
+                            Limerick, <br>Ireland</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>More Info</h4>
+                        <ul>
+                            <li><em>Phone</em>: 040-040-0440</li>
+                            <li><em>Email</em>: MN@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </footer>
+
+   
 </body>
 </html>
-
