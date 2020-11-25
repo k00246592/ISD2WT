@@ -8,14 +8,14 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/mainCss.css">
+        <link rel="stylesheet" href="css/loginCSS.css">
         
 
         
     </head>
 
 <body>
-    <div class="header">
+  <div class="header">
         <div class="container">
             
                 <div class="navbar-header">
@@ -26,7 +26,7 @@
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html" >Home</a></li>
-                        <li><a href="#bottom"  data-id="about">About Us</a></li>
+                        <li><a href="index.html/#bottom"  data-id="about">About Us</a></li>
                         
                         <li><a href="login.html"  data-id="login">Login</a></li>
                         <li><a href="Register.html"  data-id="register">Register</a></li>
@@ -45,61 +45,33 @@
 
     <div class="parallax-content baner-content" id="home">
         <div class="container">
-            <div class="text-content">
-                <h2>Munster Nutrition</h2>
-                
-                <p>The very best supplements, produced locally</p>
-                <div class="primary-white-button">
-                    <a href="products.html" class="scroll-link" data-id="about">Browse Products</a>
-                </div>
-            </div>
+          <form action="/action_page.php" method="post">
+
+
+  <div class="container">
+      <h1> Login To Your Account</h1>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <p></p>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <p id="account">Not a Member? <a href="Register.html">Register</a></p>
+  </div>
+
+ 
+</form>
         </div>
     </div>
 
 
-    <section id="about" class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        
-                        <h4>Locally Produced</h4>
-                        <div class="line-dec"></div>
-                        <p>Locally made in the county of Limerick, providing the whole province of Munster with top quality supplements.</p>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        
-                        <h4>Lab Tested</h4>
-                        <div class="line-dec"></div>
-                        <p>All the supplements are lab tested to make sure they give the best performance and are safe for use.</p>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                       
-                        <h4>24/7 Customer Support</h4>
-                        <div class="line-dec"></div>
-                        <p>Our customers are very important for us and we offer 24/7 customer support.</p>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        
-                        <h4>Wide Range of Products</h4>
-                        <div class="line-dec"></div>
-                        <p>Feel free to browse our wide range of goods.</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<a id="bottom"></a>
+   
+
     <footer>
         <div class="container">
             <div class="row">
