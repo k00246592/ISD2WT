@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Matters</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    
+    
+    <link rel="stylesheet" href="css/registerCss.css">
+
+</head>
+
+<body id="loginLanding">
+    
+ <section>
+            <a href="index.html"> <img src="images/treelogo.jpg" alt="Logo" id="tlogo"></a>
+    <h1>Health Matters</h1>
+    <h3>Your Healthy Lifestyle Guide</h3>
+            
+      <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="bmi.html">BMI Calculator</a>
+  <a href="login.html">Login</a>
+  <a href="register.html">Register</a>
+  <a href="adminlogin.html">Admin</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i> </a>
+        <label for="searchfield">
+                    <input type="search" name="searchfield" id="searchfield" placeholder="Search...">
+                </label>
+</div>  
+            
+            
+            
+ </section>
+   <main class="wrapper">
+		<header id="logo">
+		   <h1>Health Matters</h1>
+	   </header>
+		<section id="sign">
+			<header>
+				<h1 id="formhead">Create Your Health Matters Account</h1>
+			</header>
+			<article id="loginForm">
+				<form action="index.html" method="post">
+                                    
+                                    <label for="username"><i class="fas fa-user"></i> Choose A Username</label>
+
+					<input type="text" id="username" name="username" required placeholder="healthyjoe123">
+
+					<label for="email"><i class="fas fa-envelope"></i> Enter Email</label>
+
+					<input type="email" id="email" name="email" required placeholder="joebloggs@gmail.com">
+                                        
+                                        <label for="tel"><i class="fas fa-phone-square-alt"></i> PhoneNumber:</label> 
+                                        <input type="tel" name="tel" id="tel" required placeholder="000-0000000">
+                                        
+                                        <label for="add"><i class="fas fa-map-marker-alt"></i> Address:</label> 
+                                        <input type="text" name="add" id="add" required placeholder="123 main street limerick">
+
+					<label for="password"><i class="fas fa-lock"></i> Enter Password</label>
+					<div id="pwdWrap">
+						<input type="password" id="password" name="password" required>
+						<i class="fas fa-eye eyeIcon"></i>
+					</div>
+                                        <label for="password">Re-Enter Password</label>
+                                       
+                                        <div id="pwdWrap1">
+						<input type="password" id="password2" name="password" required>
+						<i class="fas fa-eye eyeIcon"></i>
+					</div>
+
+					<div>
+						<button type="submit" id="loginBtn">Register <i class="fas fa-angle-right"></i></button>
+					</div>
+
+					<aside>
+						<p><br>Already have a Health Matters account? <a href="login.html">Login</a>.</p>
+					</aside>
+				</form>
+			</article>
+		</section>
+   </main>
+    
+     <footer>
+        <span id="clock"></span>
+        <h1><strong>H</strong>ealth<strong>M</strong>atters</h1>
+        <p id="date"></p>
+        <h3>Contact Us</h3>
+        <p id="contact"> Tel:087366421<p>
+        <p id="contact2"> Address: 43 Main Street, Limerick<p>
+         
+        
+    <p>(c) 2020 HealthMatters</p>
+    <p>K00246592 - Jakub Zebura</p>
+    
+    
+    
+    
+    </footer>        
+    
+    <script src="js/mainJS.js"> </script>
+    <script src="js/date.js"></script>
+</body>
+</html>
+
+
+
+
+
+
