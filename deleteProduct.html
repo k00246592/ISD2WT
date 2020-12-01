@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     
     
-    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/productCss.css">
 
 </head>
 
@@ -19,7 +19,7 @@
     <h1>Health Matters</h1>
     <h3>Your Healthy Lifestyle Guide</h3>
             
-     <div class="topnav" id="myTopnav">
+        <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Home</a>
   <a href="bmi.html">BMI Calculator</a>
   <a href="login.html">Login</a>
@@ -30,7 +30,7 @@
         <label for="searchfield">
                     <input type="search" name="searchfield" id="searchfield" placeholder="Search...">
                 </label>
-</div>  
+</div> 
             
             
             
@@ -41,23 +41,28 @@
 	   </header>
 		<section id="sign">
 			<header>
-				<h1 id="formhead">Welcome Admin</h1>
+				<h1 id="formhead">Choose Product To Delete</h1>
 			</header>
 			<article id="loginForm">
-				<form >
-
-                                    <h3>What Would You Like To Do?</h3>
-            
-       
+                          
+				<form action="admin.html" method="post">
+                                 
+                                     <label for="pid">Product ID</label> 
+                                    <input type="text" name="pid" id="pid" required>
+                                    
+                                    <label for="reas">Reason of Deletion</label> 
+                                    <input type="text" name="reas" id="reas" required>
+                                    
                                    
-            
-         <a href="addProduct.html"><input class = "b1" type="button"  value="Add Product"></a>  
-         <a href="deleteProduct.html"><input class = "b1" type="button"  value="Delete Product"></a>
-         <a href="updateProduct.html"> <input class = "b1" type="button"  value="Update Product"></a>
-         <a href="index.html"><input class = "b1" type="button"  value="Logout"></a>
-            
-            
-					
+                                    
+                                   
+                                    
+                                    
+                                    
+                                    
+                                    <div>
+                                    <button type="submit" id="loginBtn">Delete Product</button>
+                                    </div>
 				</form>
 			</article>
 		</section>
@@ -84,6 +89,7 @@
     <script src="js/date.js"></script>
 </body>
 </html>
+
 
 
 
