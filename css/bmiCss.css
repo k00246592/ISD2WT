@@ -426,5 +426,6 @@ label:focus-within {
 .submit{
     background-color: forestgreen;
     color: white;
+	cursor: pointer
 }
 
